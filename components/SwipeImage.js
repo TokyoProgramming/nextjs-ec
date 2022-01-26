@@ -22,7 +22,7 @@ const MyComponent = () => {
     <div>
       <Carousel infiniteLoop={true} autoPlay={true} interval={5000}>
         {images.map((item) => (
-          <div className="h-[50rem] ">
+          <div className="h-[50rem] " key={item.id}>
             <Image
               src={item.src}
               layout={item.layout}

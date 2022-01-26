@@ -13,7 +13,7 @@ export default function ShoppingList() {
   ];
 
   return (
-    <div className="w-full h-64 rounded-md shadow-md">
+    <div className="w-full h-full rounded-md shadow-md">
       <div className="grid grid-cols-6">
         <div className="flex flex-col col-span-2">
           <div className="h-18 border p-1 bg-gray-200">
