@@ -19,18 +19,18 @@ export default function ShoppingList() {
           <div className="h-18 border p-1 bg-gray-200">
             <h1
               className="flex justify-center items-center
-             h-full "
+             h-full whitespace-nowrap"
             >
               商品名
             </h1>
           </div>
           <div className="h-full flex relative">
-            <div className="flex justify-center items-center mx-3">
+            <div className=" flex justify-center items-center mx-3">
               <Image src={item[0].src} height={500} width={500} />
             </div>
 
             <p
-              className="flex justify-center 
+              className="hidden flex justify-center 
             items-center underline text-blue-600"
             >
               {item[0].desription}
@@ -41,7 +41,7 @@ export default function ShoppingList() {
 
         <div className="flex flex-col">
           <div className="h-18 border p-1 bg-gray-200">
-            <h1 className="flex justify-center items-center h-full">
+            <h1 className="flex justify-center items-center h-full whitespace-nowrap">
               販売価格
             </h1>
           </div>
@@ -62,7 +62,7 @@ export default function ShoppingList() {
           <div className="h-18 border p-1 bg-gray-200">
             <h1
               className="flex justify-center 
-            items-center h-full"
+            items-center h-full whitespace-nowrap"
             >
               数量
             </h1>
@@ -78,7 +78,7 @@ export default function ShoppingList() {
             </div>
           </div>
           <div className="border-t h-20 flex justify-center items-center bg-gray-200">
-            <p className="h-full w-full flex items-center border-r justify-center">
+            <p className="h-full w-full flex items-center border-r justify-center whitespace-nowrap">
               商品合計{" "}
             </p>
           </div>
@@ -86,7 +86,9 @@ export default function ShoppingList() {
 
         <div className="flex flex-col">
           <div className="h-18 border p-1 bg-gray-200">
-            <h1 className="flex justify-center items-center h-full">変更 </h1>
+            <h1 className="flex justify-center items-center h-full whitespace-nowrap">
+              変更{" "}
+            </h1>
           </div>
           <div className="h-full  w-full">
             <div className="flex justify-end items-center mx-3 h-full">
@@ -103,7 +105,9 @@ export default function ShoppingList() {
 
         <div className="flex flex-col">
           <div className="h-18 border p-1 bg-gray-200">
-            <h1 className="flex justify-center items-center h-full">小計 </h1>
+            <h1 className="flex justify-center items-center h-full whitespace-nowrap">
+              小計{" "}
+            </h1>
           </div>
           <div className="h-full  w-full">
             <div className="flex justify-end items-center mx-3 h-full">
