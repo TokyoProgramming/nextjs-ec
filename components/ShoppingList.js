@@ -30,7 +30,7 @@ export default function ShoppingList() {
             </div>
 
             <p
-              className="hidden flex justify-center 
+              className="hidden md:flex justify-center 
             items-center underline text-blue-600"
             >
               {item[0].desription}
